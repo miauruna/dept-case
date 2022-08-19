@@ -1,8 +1,9 @@
 import React from 'react';
 import './Layout.css';
 import { Link, Outlet } from 'react-router-dom';
-import { NAVBAR_LINKS } from '../../store/NAVBAR_LINKS';
-import DEPTLogoWhite from '../../assets/icons/DEPTLogoWhite.svg';
+import { NAVBAR_LINKS } from '../store/NAVBAR_LINKS';
+import DEPTLogoWhite from '../components/icons/DEPTLogoWhite.svg';
+import MenuIcon from '../components/icons/MenuIcon.svg';
 
 const Layout = () => {
 	return (
@@ -10,7 +11,11 @@ const Layout = () => {
 			<div className='navbar-wrapper'>
 				<nav>
 					<Link to='/'>
-						<img src={DEPTLogoWhite} alt='Dept' />
+						<img
+							src={DEPTLogoWhite}
+							alt='Dept'
+							className='navbar-logo'
+						/>
 					</Link>
 					{NAVBAR_LINKS.map((item) => {
 						return (
@@ -22,9 +27,16 @@ const Layout = () => {
 							</Link>
 						);
 					})}
+					<div className='navbar-menu'>
+						<img
+							src={MenuIcon}
+							alt='menu'
+							className='navbar-menu-icon'
+						/>
+					</div>
 				</nav>
-				<Outlet />
 			</div>
+			<Outlet />
 		</div>
 	);
 };
