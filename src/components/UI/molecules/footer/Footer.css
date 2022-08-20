@@ -1,0 +1,32 @@
+.footer-wrapper {
+	background-color: #121212;
+	color: #ffffff;
+	padding: 1% 5%;
+}
+.footer-topside {
+	border-bottom: 1px solid #3e3e3e;
+	display: flex;
+	gap: 1%;
+	justify-content: space-between;
+	padding: 5% 0;
+}
+
+.footer-logo {
+	width: 88px;
+	height: 25px;
+}
+.footer-link {
+	text-transform: uppercase;
+}
+.footer-link:hover {
+	border-bottom: 1px solid #ffffff;
+}
+.footer-end-info {
+	font-size: 0.5em;
+	display: flex;
+	justify-content: space-around;
+	color: #808080;
+}
+.footer-end-info a:hover {
+	color: #ffffff;
+}

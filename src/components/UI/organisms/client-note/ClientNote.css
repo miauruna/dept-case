@@ -10,8 +10,10 @@
 	color: #ffffff;
 	flex: 1;
 	display: flex;
+	justify-content: center;
 	flex-direction: column;
 	padding: 2%;
+	gap: 1.5rem;
 }
 .reverse-panel {
 	flex-direction: row-reverse;

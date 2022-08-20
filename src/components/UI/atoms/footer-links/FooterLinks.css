@@ -1,0 +1,21 @@
+.footer-botside {
+	display: flex;
+	justify-content: space-between;
+	padding: 5% 0;
+	flex-direction: column;
+}
+.footer-botside p {
+	display: inline;
+}
+.footer-socials {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 5%;
+}
+.footer-socials img {
+	width: 40px;
+	height: 35px;
+}
+.footer-socials img:hover {
+	transform: scale(1.5);
+}

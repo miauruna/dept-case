@@ -67,7 +67,7 @@ const Work = () => {
 					<ClientCardGroup sectionData={pageLayout.sixthSection} />
 					<ClientQuote quoteData={pageLayout.quotes} index='0' />
 					<ClientCardGroup sectionData={pageLayout.lastSection} />
-					<ClientQuote quoteData={pageLayout.quotes} index='1' />
+					{/* <ClientQuote quoteData={pageLayout.quotes} index='1' /> */}
 				</>
 			)}
 		</div>
