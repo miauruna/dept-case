@@ -1,0 +1,196 @@
+{
+	"firstSection": {
+		"displayType": "halfColumns",
+		"displayObjects": [
+			{
+				"id": "1",
+				"clientName": "Philips",
+				"title": "Beautiful design meets innovative technology",
+				"description": "Longer client description example that's shown if it's a client note",
+				"readMorePath": "/",
+				"imageUrl": "./assets/images/image-6.png"
+			},
+			{
+				"id": "2",
+				"clientName": "Gemeentemuseum",
+				"title": "A 100 years of Mondriaan & De Stijl",
+				"description": "Longer client description example that's shown if it's a client note",
+				"readMorePath": "/",
+				"imageUrl": "/assets/images/image-7.png"
+			}
+		]
+	},
+	"secondSection": {
+		"displayType": "halfColumns",
+		"displayObjects": [
+			{
+				"id": "3",
+				"clientName": "Chocomel",
+				"title": "A campaign for the limited edition letter packs",
+				"description": "Longer client description example that's shown if it's a client note",
+				"readMorePath": "/",
+				"imageUrl": "/assets/images/image-10.png"
+			},
+			{
+				"id": "4",
+				"clientName": "TUI",
+				"title": "Swipe to find your next holiday destination",
+				"description": "Longer client description example that's shown if it's a client note",
+				"readMorePath": "/",
+				"imageUrl": "/assets/images/image-9.png"
+			}
+		]
+	},
+	"thirdSection": {
+		"displayType": "initial",
+		"singleClient": {
+			"id": "6",
+			"clientName": "Zalando",
+			"title": "Innovative SEO and content strategy for Zalando",
+			"description": "Longer client description example that's shown if it's a client note",
+			"readMorePath": "/",
+			"imageUrl": "/assets/images/image-12.png"
+		},
+		"notes": [
+			{
+				"id": "7",
+				"clientName": "Microsoft",
+				"title": "Client card title dummy",
+				"description": "Tapping into Ireland’s unique gaming culture and bringing a fresh flavour to their Xbox social media channels",
+				"readMorePath": "/",
+				"imageUrl": ""
+			},
+			{
+				"id": "8",
+				"clientName": "O’Neill",
+				"title": "Client card title dummy",
+				"description": "Integrating existing content into O’Neill’s new e-commerce platform",
+				"readMorePath": "/",
+				"imageUrl": ""
+			},
+			{
+				"id": "9",
+				"clientName": "Amazon",
+				"title": "Client card title dummy",
+				"description": "Starting with delivering through drones",
+				"readMorePath": "/",
+				"imageUrl": ""
+			}
+		]
+	},
+	"fourthSection": {
+		"displayType": "halfColumns",
+		"displayObjects": [
+			{
+				"id": "5",
+				"clientName": "JBL",
+				"title": "Live like a champion with Jerome Boateng",
+				"description": "Longer client description example that's shown if it's a client note",
+				"readMorePath": "/",
+				"imageUrl": "/assets/images/image-11.png"
+			},
+			{
+				"id": "10",
+				"clientName": "Koninklijke Bibliotheek",
+				"title": "The search of the most influential book ever",
+				"description": "Longer client description example that's shown if it's a client note",
+				"readMorePath": "/",
+				"imageUrl": "/assets/images/image-13.png"
+			}
+		]
+	},
+	"fifthSection": {
+		"displayType": "initial",
+		"notes": [
+			{
+				"id": "7",
+				"clientName": "Microsoft",
+				"title": "Client card title dummy",
+				"description": "Tapping into Ireland’s unique gaming culture and bringing a fresh flavour to their Xbox social media channels",
+				"readMorePath": "/",
+				"imageUrl": ""
+			},
+			{
+				"id": "8",
+				"clientName": "O’Neill",
+				"title": "Client card title dummy",
+				"description": "Integrating existing content into O’Neill’s new e-commerce platform",
+				"readMorePath": "/",
+				"imageUrl": ""
+			},
+			{
+				"id": "9",
+				"clientName": "Amazon",
+				"title": "Client card title dummy",
+				"description": "Starting with delivering through drones",
+				"readMorePath": "/",
+				"imageUrl": ""
+			}
+		],
+		"singleClient": {
+			"id": "11",
+			"clientName": "Liberty Global",
+			"title": "Delivering complex commerce solutions",
+			"description": "Longer client description example that's shown if it's a client note",
+			"readMorePath": "/",
+			"imageUrl": "/assets/images/image-14.png"
+		}
+	},
+	"sixthSection": {
+		"displayType": "halfColumns",
+		"displayObjects": [
+			{
+				"id": "13",
+				"clientName": "Yogurt",
+				"title": "Client card title dummy",
+				"description": "Longer client description example that's shown if it's a client note",
+				"readMorePath": "/",
+				"imageUrl": "/assets/images/image-15.png"
+			},
+			{
+				"id": "12",
+				"clientName": "Bol.com",
+				"title": "A Summer island in the Netherlands",
+				"description": "Longer client description example that's shown if it's a client note",
+				"readMorePath": "/",
+				"imageUrl": "/assets/images/image-4.png"
+			}
+		]
+	},
+	"lastSection": {
+		"displayType": "halfColumns",
+		"displayObjects": [
+			{
+				"id": "25",
+				"clientName": "Clienter",
+				"title": "Client card title dummy",
+				"description": "Longer client description example that's shown if it's a client note",
+				"readMorePath": "/",
+				"imageUrl": "/assets/images/image-3.png"
+			},
+			{
+				"id": "19",
+				"clientName": "Client",
+				"title": "A Summer island in the Netherlands",
+				"description": "Longer client description example that's shown if it's a client note",
+				"readMorePath": "/",
+				"imageUrl": "/assets/images/image-13.png"
+			}
+		]
+	},
+	"quotes": {
+		"displayType": "initial",
+		"displayObjects": [
+			{
+				"id": "45",
+				"message": "Dept helped us tell our story through a bold new identity and a robust online experience. To the tone of 60% growth in online bookings in just one month",
+				"signature": "MATTIJS TEN DRINK - CEO, TRANSAVIA"
+			},
+			{
+				"id": "47",
+				"message": "A wonderful experience",
+				"signature": "Pinky Toe - CEO, World Corp"
+			}
+		]
+	}
+}

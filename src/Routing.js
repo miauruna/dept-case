@@ -11,7 +11,7 @@ const Routing = () => {
 				<Route path='/' element={<Layout />}>
 					<Route path='' element={<Home />} />
 					<Route path='/work' element={<Work />} />
-					<Route path='*' element={<div>404 Page not Found</div>} />
+					<Route path='*' element={<h1>404 Page not Found</h1>} />
 				</Route>
 			</Routes>
 		</>

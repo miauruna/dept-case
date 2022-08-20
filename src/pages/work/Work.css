@@ -11,21 +11,19 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	background-color: yellowgreen;
 }
 .work-hero-text {
 	color: #ffffff;
 	padding: 5%;
-	width: 50%;
+	max-width: 65%;
 }
 .work-hero-title {
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 	margin-bottom: 25px;
 }
 .work-hero-description {
-	font-family: Helvetica, Arial;
 	line-height: 1.6;
-	font-size: 2rem;
+	font-size: 1.8rem;
 	font-weight: 400;
 	width: 100%;
 	text-align: left;
@@ -34,4 +32,21 @@ strong {
 	font-family: inherit;
 	font-size: inherit;
 	font-weight: 700;
+}
+.hero-break-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	min-height: 5vh;
+	padding: 2% 3%;
+	color: #a3a3a3;
+	align-items: center;
+}
+.hero-break-wrapper h1 {
+	font-size: 1.1rem;
+}
+.hero-break-wrapper a {
+	color: #000;
+	text-decoration: underline 1px #000;
+	font-size: 1.15rem;
 }

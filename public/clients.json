@@ -1,0 +1,114 @@
+[
+	{
+		"id": "1",
+		"clientName": "Philips",
+		"title": "Beautiful design meets innovative technology",
+		"description": "Longer client description example that's shown if it's a client note",
+		"readMorePath": "/",
+		"imageUrl": "./assets/images/image-6.png"
+	},
+	{
+		"id": "2",
+		"clientName": "Gemeentemuseum",
+		"title": "A 100 years of Mondriaan & De Stijl",
+		"description": "Longer client description example that's shown if it's a client note",
+		"readMorePath": "/",
+		"imageUrl": "/assets/images/image-7.png"
+	},
+	{
+		"id": "3",
+		"clientName": "Chocomel",
+		"title": "A campaign for the limited edition letter packs",
+		"description": "Longer client description example that's shown if it's a client note",
+		"readMorePath": "/",
+		"imageUrl": "/assets/images/image-10.png"
+	},
+	{
+		"id": "4",
+		"clientName": "TUI",
+		"title": "Swipe to find your next holiday destination",
+		"description": "Longer client description example that's shown if it's a client note",
+		"readMorePath": "/",
+		"imageUrl": "/assets/images/image-9.png"
+	},
+	{
+		"id": "5",
+		"clientName": "JBL",
+		"title": "Live like a champion with Jerome Boateng",
+		"description": "Longer client description example that's shown if it's a client note",
+		"readMorePath": "/",
+		"imageUrl": "/assets/images/image-11.png"
+	},
+	{
+		"id": "6",
+		"clientName": "Zalando",
+		"title": "Innovative SEO and content strategy for Zalando",
+		"description": "Longer client description example that's shown if it's a client note",
+		"readMorePath": "/",
+		"imageUrl": "/assets/images/image-12.png"
+	},
+	{
+		"id": "7",
+		"clientName": "Microsoft",
+		"title": "Client card title dummy",
+		"description": "Tapping into Ireland’s unique gaming culture and bringing a fresh flavour to their Xbox social media channels",
+		"readMorePath": "/",
+		"imageUrl": ""
+	},
+	{
+		"id": "8",
+		"clientName": "O’Neill",
+		"title": "Client card title dummy",
+		"description": "Integrating existing content into O’Neill’s new e-commerce platform",
+		"readMorePath": "/",
+		"imageUrl": ""
+	},
+	{
+		"id": "9",
+		"clientName": "Amazon",
+		"title": "Client card title dummy",
+		"description": "Starting with delivering through drones",
+		"readMorePath": "/",
+		"imageUrl": ""
+	},
+	{
+		"id": "10",
+		"clientName": "Koninklijke Bibliotheek",
+		"title": "The search of the most influential book ever",
+		"description": "Longer client description example that's shown if it's a client note",
+		"readMorePath": "/",
+		"imageUrl": "/assets/images/image-13.png"
+	},
+	{
+		"id": "11",
+		"clientName": "Liberty Global",
+		"title": "Delivering complex commerce solutions",
+		"description": "Longer client description example that's shown if it's a client note",
+		"readMorePath": "/",
+		"imageUrl": "/assets/images/image-14.png"
+	},
+	{
+		"id": "12",
+		"clientName": "Bol.com",
+		"title": "Client card title dummy",
+		"description": "Longer client description example that's shown if it's a client note",
+		"readMorePath": "/",
+		"imageUrl": "/assets/images/image-4.png"
+	},
+	{
+		"id": "13",
+		"clientName": "Yogurt",
+		"title": "Client card title dummy",
+		"description": "Longer client description example that's shown if it's a client note",
+		"readMorePath": "/",
+		"imageUrl": "/assets/images/image-15.png"
+	},
+	{
+		"id": "14",
+		"clientName": "Client",
+		"title": "Client card title dummy",
+		"description": "Longer client description example that's shown if it's a client note",
+		"readMorePath": "/",
+		"imageUrl": "/assets/images/image-5.png"
+	}
+]

@@ -1,0 +1,17 @@
+.note-panel-wrapper {
+	flex: 1;
+	border-bottom: 1px solid #dddddd;
+	padding: 5%;
+}
+.note-panel-wrapper:last-child {
+	border: none;
+}
+
+.note-name {
+	text-transform: uppercase;
+	margin-bottom: 5%;
+}
+.note-text {
+	font-size: 0.9rem;
+	margin-bottom: 5%;
+}
