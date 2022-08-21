@@ -7,6 +7,7 @@ const Form = () => {
 	const [emailValue, setEmailValue] = useState('');
 	const [messageValue, setMessageValue] = useState('');
 	const [isValid, setIsValid] = useState(true);
+	const [isSent, setIsSent] = useState(false);
 	const handleChange = (e) => {
 		switch (e.target.name) {
 			case 'name':
@@ -33,6 +34,7 @@ const Form = () => {
 			return;
 		}
 		console.log({ nameValue, emailValue, messageValue });
+		setIsSent(true);
 	};
 
 	return (
@@ -53,7 +55,7 @@ const Form = () => {
 						<div className='form-group'>
 							<label htmlFor='email'>EMAIL</label>
 							<input
-								type='text'
+								type='email'
 								id='email'
 								onChange={handleChange}
 								name='email'
@@ -82,6 +84,13 @@ const Form = () => {
 						type='submit'>
 						Send
 					</button>
+					{isSent && (
+						<div
+							className='submit-success'
+							onClick={() => setIsSent(false)}>
+							Your question has been submitted!
+						</div>
+					)}
 				</form>
 			</div>
 		</div>

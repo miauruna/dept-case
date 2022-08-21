@@ -1,53 +1,30 @@
 import React from 'react';
 import './FooterLinks.css';
-import Instagram from '../../../icons/instagram.svg';
-import Facebook from '../../../icons/facebook.svg';
-import Twitter from '../../../icons/twitter.svg';
 
 const FooterLinks = () => {
 	return (
 		<div>
 			<div className='footer-botside'>
-				<div className='footer-socials'>
-					<a
-						href='http://linkedin.com/in/miauruna'
-						target='_blank'
-						rel='noreferrer'>
-						<img src={Facebook} alt='facebook' />
-					</a>
-					<a
-						href='http://linkedin.com/in/miauruna'
-						target='_blank'
-						rel='noreferrer'>
-						<img src={Instagram} alt='instagram' />
-					</a>
-					<a
-						href='http://linkedin.com/in/miauruna'
-						target='_blank'
-						rel='noreferrer'>
-						<img src={Twitter} alt='twitter' />
-					</a>
-				</div>
 				<div className='footer-end-info'>
 					<a
 						href='http://google.com'
 						target='_blank'
 						rel='noreferrer'>
-						Privacy Policy
+						Chamber of Commerce: 63464101
 					</a>
 					<a
 						href='http://google.com'
 						target='_blank'
 						rel='noreferrer'>
-						Terms and Conditions
+						VAT: NL 8552.47.502.B01
 					</a>
 					<a
 						href='http://google.com'
 						target='_blank'
 						rel='noreferrer'>
-						Cookies
+						Terms and conditions
 					</a>
-					<p>© 2022 DEPT®</p>
+					<p>©2022 DEPT Agency</p>
 				</div>
 			</div>
 		</div>

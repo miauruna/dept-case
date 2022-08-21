@@ -4,7 +4,7 @@
 	padding: 2% 0;
 	flex-direction: column;
 }
-.footer-botside p {
+.footer-end-info p {
 	display: inline;
 	margin-left: 20%;
 }
@@ -19,4 +19,30 @@
 }
 .footer-socials img:hover {
 	transform: scale(1.5);
+}
+.footer-end-info {
+	font-size: 0.6rem;
+	display: flex;
+	justify-content: space-around;
+	color: #808080;
+}
+
+.footer-end-info a:hover {
+	color: #ffffff;
+}
+@media screen and (max-width: 1024px) {
+	.footer-botside {
+		flex-direction: column;
+		font-size: 0.5rem;
+	}
+	.footer-end-info {
+		flex-direction: column;
+	}
+	.footer-end-info a,
+	p {
+		font-size: 0.7rem;
+	}
+	.footer-socials {
+		flex-direction: column;
+	}
 }

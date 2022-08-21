@@ -4,7 +4,7 @@
 }
 .work-hero {
 	width: 100%;
-	height: 70vh;
+	height: 90vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
@@ -20,6 +20,7 @@
 .work-hero-title {
 	font-size: 1.2rem;
 	margin-bottom: 25px;
+	text-transform: uppercase;
 }
 .work-hero-description {
 	line-height: 1.6;
@@ -49,4 +50,19 @@ strong {
 	color: #000;
 	text-decoration: underline 1px #000;
 	font-size: 1.15rem;
+}
+@media screen and (max-width: 1024px) {
+	.hero-break-wrapper {
+		color: #a3a3a3;
+		background-color: #121212;
+		flex-direction: row-reverse;
+		padding: 5%;
+	}
+	.hero-break-wrapper a {
+		color: #ffffff;
+		text-decoration: underline 1px #fff;
+	}
+	.work-hero-text {
+		max-width: 100%;
+	}
 }

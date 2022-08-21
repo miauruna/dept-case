@@ -108,3 +108,43 @@
 	text-align: right;
 	border-bottom: 2px solid #ffffff;
 }
+.mobile {
+	display: none;
+}
+
+@media screen and (max-width: 1024px) {
+	.navbar-link {
+		display: none;
+	}
+	.location-group {
+		display: none;
+	}
+	.navbar-wrapper {
+		padding: 7%;
+		background-color: #fff;
+	}
+	.mobile {
+		width: 88px;
+		height: 25px;
+		/* margin-right: 20vw; */
+		color: #121212;
+		display: unset;
+		font-size: 1.5rem;
+		line-height: 1.1rem;
+	}
+	.white-font {
+		color: #fff;
+	}
+	.desktop {
+		display: none;
+	}
+	.item-span:hover::after {
+		display: none;
+	}
+
+	.item-span:hover::before {
+		position: relative;
+		content: '▶';
+		left: -0.5rem;
+	}
+}

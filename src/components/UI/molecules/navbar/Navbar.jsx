@@ -4,6 +4,7 @@ import LOCATIONS from '../../../../store/LOCATIONS';
 import MENU_LINKS from '../../../../store/MENU_LINKS';
 import NAVBAR_LINKS from '../../../../store/NAVBAR_LINKS';
 import DEPTLogoWhite from '../../../icons/DEPTLogoWhite.svg';
+import DEPTLogoBlack from '../../../icons/DEPTLogoBlack.svg';
 import MenuIcon from '../../../icons/MenuIcon.svg';
 import MenuExit from '../../../icons/Vector-1.svg';
 import './Navbar.css';
@@ -57,7 +58,12 @@ const Navbar = () => {
 						<img
 							src={DEPTLogoWhite}
 							alt='Dept'
-							className='navbar-logo'
+							className='navbar-logo desktop'
+						/>
+						<img
+							src={DEPTLogoBlack}
+							alt='Dept'
+							className='navbar-logo mobile'
 						/>
 					</Link>
 					{NAVBAR_LINKS.map((item) => {
@@ -76,8 +82,14 @@ const Navbar = () => {
 						<img
 							src={toggleMenu ? MenuIcon : MenuExit}
 							alt='menu'
-							className='navbar-menu-icon'
+							className='navbar-menu-icon desktop'
 						/>
+						<div
+							className={`navbar-menu-icon mobile ${
+								!toggleMenu && 'white-font'
+							}`}>
+							MENU
+						</div>
 					</div>
 
 					<div
@@ -108,7 +120,7 @@ const Navbar = () => {
 										className='menu-item'
 										key={item.id}
 										to={item.label}
-										onClick={!toggleMenu}>
+										onClick={handleMenuToggle}>
 										<span className='item-span'>
 											{item.label}
 										</span>

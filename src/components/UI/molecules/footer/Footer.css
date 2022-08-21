@@ -10,6 +10,7 @@
 	gap: 1%;
 	justify-content: space-between;
 	padding: 5% 0;
+	margin-bottom: 1.5%;
 }
 
 .footer-logo {
@@ -22,13 +23,15 @@
 .footer-link:hover {
 	border-bottom: 1px solid #ffffff;
 }
-.footer-end-info {
-	font-size: 0.6rem;
-	display: flex;
-	justify-content: space-around;
-	color: #808080;
-}
 
-.footer-end-info a:hover {
-	color: #ffffff;
+@media screen and (max-width: 1024px) {
+	.footer-topside {
+		flex-direction: column;
+		border: none;
+	}
+	.footer-layout {
+		border-bottom: 1px solid #3e3e3e;
+		display: flex;
+		justify-content: space-between;
+	}
 }
