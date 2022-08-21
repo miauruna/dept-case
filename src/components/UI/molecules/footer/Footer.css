@@ -1,7 +1,8 @@
 .footer-wrapper {
 	background-color: #121212;
 	color: #ffffff;
-	padding: 1% 5%;
+	padding: 0 3%;
+	min-height: 15rem;
 }
 .footer-topside {
 	border-bottom: 1px solid #3e3e3e;
@@ -22,11 +23,12 @@
 	border-bottom: 1px solid #ffffff;
 }
 .footer-end-info {
-	font-size: 0.5em;
+	font-size: 0.6rem;
 	display: flex;
 	justify-content: space-around;
 	color: #808080;
 }
+
 .footer-end-info a:hover {
 	color: #ffffff;
 }

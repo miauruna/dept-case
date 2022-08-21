@@ -3,6 +3,8 @@ import ClientNote from '../../components/UI/organisms/client-note/ClientNote';
 import ClientCardGroup from '../../components/UI/organisms/client-card-group/ClientCardGroup';
 import './Work.css';
 import ClientQuote from '../../components/UI/atoms/client-quote/ClientQuote';
+import ClientsPanel from '../../components/UI/atoms/clients-panel/ClientsPanel';
+import Form from '../../components/UI/molecules/form/Form';
 
 const Work = () => {
 	const [pageLayout, setPageLayout] = useState();
@@ -70,6 +72,8 @@ const Work = () => {
 					{/* <ClientQuote quoteData={pageLayout.quotes} index='1' /> */}
 				</>
 			)}
+			<ClientsPanel />
+			<Form />
 		</div>
 	);
 };

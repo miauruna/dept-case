@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import NAVBAR_LINKS from '../../../../store/NAVBAR_LINKS';
 import DEPTLogoWhite from '../../../icons/DEPTLogoWhite.svg';
-import FooterLinks from '../../atoms/footer-links/FooterLinks';
+import FooterLinks from '../footer-links/FooterLinks';
 
 import './Footer.css';
 

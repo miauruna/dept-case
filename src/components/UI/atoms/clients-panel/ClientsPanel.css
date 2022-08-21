@@ -1,0 +1,24 @@
+.logo-panel-wrapper {
+	background-color: #121212;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	justify-items: center;
+	gap: 100px;
+	padding: 3%;
+}
+.clients-panel-wrapper {
+	background-color: #121212;
+	color: #ffffff;
+	padding: 2.5%;
+}
+.logo-panel-wrapper img {
+	width: 100px;
+	height: 100px;
+}
+.clients-panel-wrapper h1 {
+	font-size: 1.6rem;
+	margin-bottom: 2%;
+}
+.clients-panel-wrapper h2 {
+	font-size: 0.9rem;
+}

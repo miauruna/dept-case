@@ -1,11 +1,12 @@
 .footer-botside {
 	display: flex;
 	justify-content: space-between;
-	padding: 5% 0;
+	padding: 2% 0;
 	flex-direction: column;
 }
 .footer-botside p {
 	display: inline;
+	margin-left: 20%;
 }
 .footer-socials {
 	display: flex;

@@ -1,29 +1,34 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import LOCATIONS from '../../../../store/LOCATIONS';
+import MENU_LINKS from '../../../../store/MENU_LINKS';
 import NAVBAR_LINKS from '../../../../store/NAVBAR_LINKS';
 import DEPTLogoWhite from '../../../icons/DEPTLogoWhite.svg';
 import MenuIcon from '../../../icons/MenuIcon.svg';
+import MenuExit from '../../../icons/Vector-1.svg';
 import './Navbar.css';
 
 const Navbar = () => {
 	const [toggleNavbar, setToggleNavbar] = useState(true);
 	const [y, setY] = useState(window.scrollY);
+	const [toggleMenu, setToggleMenu] = useState(true);
+
 	//Hides Navbar when scrolling down
 	//And shows it when scrolling up
-	//I added a 1s delay to prevent clipping
+	//I added a small delay to prevent jagging
 	const handleNavigation = useCallback(
 		(e) => {
 			const window = e.currentTarget;
 			if (y > window.scrollY) {
 				setTimeout(() => {
 					setToggleNavbar(true);
-				}, 1000);
+				}, 300);
 			} else if (y < window.scrollY) {
-				setToggleNavbar(false);
+				!toggleMenu && setToggleNavbar(false);
 			}
 			setY(window.scrollY);
 		},
-		[y]
+		[y, toggleMenu]
 	);
 
 	useEffect(() => {
@@ -35,11 +40,19 @@ const Navbar = () => {
 		};
 	}, [handleNavigation]);
 
+	const handleMenuToggle = () => {
+		setToggleMenu((prev) => !prev);
+		document.body.style.overflow = toggleMenu ? 'hidden' : '';
+	};
+
 	return (
 		<div>
 			{' '}
-			<div className={`navbar-wrapper ${!toggleNavbar && 'hidden-nav'}`}>
-				<nav>
+			<nav>
+				<div
+					className={`navbar-wrapper ${
+						!toggleNavbar && 'hidden-nav'
+					}`}>
 					<Link to='/'>
 						<img
 							src={DEPTLogoWhite}
@@ -52,20 +65,60 @@ const Navbar = () => {
 							<Link
 								key={item.id}
 								to={item.path}
-								className='navbar-link'>
+								className={`navbar-link ${
+									item.label === 'Work' ? 'work' : ''
+								}`}>
 								{item.label}
 							</Link>
 						);
 					})}
-					<div className='navbar-menu'>
+					<div className='navbar-menu' onClick={handleMenuToggle}>
 						<img
-							src={MenuIcon}
+							src={toggleMenu ? MenuIcon : MenuExit}
 							alt='menu'
 							className='navbar-menu-icon'
 						/>
 					</div>
-				</nav>
-			</div>
+
+					<div
+						className={`menu-overlay ${
+							!toggleMenu && 'menu-open'
+						}`}>
+						<img
+							src={DEPTLogoWhite}
+							alt='Dept'
+							className='navbar-logo in-menu'
+						/>
+						<ul className='in-menu location-group'>
+							<p>Landen</p>
+							{LOCATIONS.map((item) => {
+								return (
+									<li
+										key={item.id}
+										className='menu-location-item'>
+										{item.label}
+									</li>
+								);
+							})}
+						</ul>
+						<ul className='menu-item-group'>
+							{MENU_LINKS.map((item) => {
+								return (
+									<Link
+										className='menu-item'
+										key={item.id}
+										to={item.label}
+										onClick={!toggleMenu}>
+										<span className='item-span'>
+											{item.label}
+										</span>
+									</Link>
+								);
+							})}
+						</ul>
+					</div>
+				</div>
+			</nav>
 		</div>
 	);
 };

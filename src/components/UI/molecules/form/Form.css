@@ -1,0 +1,78 @@
+.form-wrapper {
+	display: flex;
+	width: 80%;
+}
+.form-section-wrapper {
+	display: flex;
+	height: 40vh;
+	padding: 2.5%;
+}
+.form-section-wrapper h1 {
+	flex: 1;
+	font-size: 2rem;
+	line-height: 3.2rem;
+	width: 20%;
+	margin-right: 2%;
+	text-transform: uppercase;
+}
+.form-submit-button {
+	border-radius: 50px;
+	border: 1px solid #121212;
+	background: transparent;
+	font-size: 1.1rem;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin: 1%;
+	cursor: pointer;
+	width: 20%;
+	padding: 1% 2%;
+}
+.form-submit-button:hover {
+	background: linear-gradient(35deg, #121212 55%, #f0f1f3bf, #121212 69%);
+	animation: gloss 1.5s ease-in-out;
+	background-size: 300% 250%;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+}
+.form-wrapper label {
+	font-size: 0.8rem;
+	line-height: 1.2rem;
+}
+.form-wrapper input {
+	border: hidden;
+	border-bottom: 1px solid #dddddd;
+	line-height: 1.1rem;
+	height: 3rem;
+	text-indent: 10px;
+	padding: 1%;
+	width: 90%;
+}
+form {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.req-input-field {
+	color: #ff2929;
+}
+.inactive-btn {
+	pointer-events: none;
+}
+.form-message {
+	resize: none;
+	width: 45%;
+	height: 50%;
+	border: hidden;
+	border-bottom: 1px solid #dddddd;
+	padding: 2%;
+	text-indent: 10px;
+}
+.form-group {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 6rem;
+}
+.input-group {
+	display: flex;
+}
