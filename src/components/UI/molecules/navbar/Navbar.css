@@ -1,0 +1,150 @@
+.navbar-wrapper {
+	background-color: #121212;
+	color: #ffffff;
+	display: flex;
+	gap: 1%;
+	justify-content: space-between;
+	align-items: center;
+	padding: 4% 5%;
+	position: fixed;
+	width: 100%;
+	height: 1rem;
+	left: 0px;
+	top: 0px;
+	z-index: 1;
+	transition: all 0.8s ease-in-out;
+}
+.navbar-logo {
+	width: 88px;
+	height: 25px;
+	margin-right: 20vw;
+}
+.navbar-link {
+	transition: all 0.4s ease-in-out;
+	text-transform: uppercase;
+}
+.navbar-menu {
+	cursor: pointer;
+	z-index: 3;
+}
+.navbar-menu-icon {
+	width: 32px;
+	height: 15px;
+}
+.navbar-link:hover {
+	border-bottom: 1px solid #ffffff;
+}
+.work {
+	animation: glow 3s infinite;
+	color: #eeeeee;
+}
+.hidden-nav {
+	top: -200px;
+}
+.menu-overlay {
+	height: 100vh;
+	width: 0;
+	background: #0c0c0c;
+	position: fixed;
+	top: 0;
+	right: 0;
+	transition: all 0.3s ease-in-out;
+	opacity: 0;
+}
+.menu-open {
+	width: 100%;
+	z-index: 2;
+	opacity: 1;
+	overflow: hidden;
+}
+.in-menu {
+	margin: 3% 5%;
+}
+.location-group p {
+	color: #ffffff;
+	opacity: 50%;
+}
+.location-group {
+	background-color: #0c0c0c;
+	z-index: 10;
+	width: 15%;
+	position: absolute;
+}
+.menu-location-item,
+.menu-item {
+	list-style: none;
+	text-transform: uppercase;
+	cursor: pointer;
+	position: relative;
+}
+.menu-location-item:hover:before {
+	position: relative;
+	left: -1rem;
+	content: '▶';
+}
+.menu-item-group {
+	display: flex;
+	flex-direction: column;
+	padding: 5%;
+	align-items: flex-end;
+	height: 100%;
+	position: absolute;
+	top: 5rem;
+	right: 0;
+	width: 100%;
+}
+.item-span:hover::after {
+	position: relative;
+	content: '⨞';
+	left: -1rem;
+	padding: 2%;
+}
+.item-span {
+	font-size: 3rem;
+	width: fit-content;
+}
+.menu-item {
+	width: stretch;
+	text-align: right;
+	border-bottom: 2px solid #ffffff;
+}
+.mobile {
+	display: none;
+}
+
+@media screen and (max-width: 1024px) {
+	.navbar-link {
+		display: none;
+	}
+	.location-group {
+		display: none;
+	}
+	.navbar-wrapper {
+		padding: 7%;
+		background-color: #fff;
+	}
+	.mobile {
+		width: 88px;
+		height: 25px;
+		/* margin-right: 20vw; */
+		color: #121212;
+		display: unset;
+		font-size: 1.5rem;
+		line-height: 1.1rem;
+	}
+	.white-font {
+		color: #fff;
+	}
+	.desktop {
+		display: none;
+	}
+	.item-span:hover::after {
+		display: none;
+	}
+
+	.item-span:hover::before {
+		position: relative;
+		content: '▶';
+		left: -0.5rem;
+	}
+}

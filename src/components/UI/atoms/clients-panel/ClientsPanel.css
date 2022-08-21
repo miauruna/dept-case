@@ -1,0 +1,43 @@
+.logo-panel-wrapper {
+	background-color: #121212;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	justify-items: center;
+	gap: 100px;
+	padding: 3%;
+}
+.clients-panel-wrapper {
+	background-color: #121212;
+	color: #ffffff;
+	padding: 2.5%;
+}
+.logo-panel-wrapper img {
+	width: 170px;
+	height: 100px;
+}
+.clients-panel-wrapper h1 {
+	font-size: 1.6rem;
+	margin-bottom: 2%;
+}
+.clients-panel-wrapper h2 {
+	font-size: 0.9rem;
+}
+
+@media screen and (max-width: 1070px) {
+	.logo-panel-wrapper {
+		gap: 60px;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	.logo-panel-wrapper img {
+		width: 160px;
+	}
+}
+@media screen and (max-width: 680px) {
+	.logo-panel-wrapper {
+		gap: 40px;
+		grid-template-columns: 1fr 1fr;
+	}
+	.logo-panel-wrapper img {
+		width: 150px;
+	}
+}

@@ -1,0 +1,41 @@
+.client-card {
+	height: 75vh;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+.card-overlay {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	height: inherit;
+	background-size: cover;
+	background-image: linear-gradient(90deg, #1212125e, #12121215);
+}
+.client-card-text {
+	color: #ffffff;
+	padding: 5%;
+}
+.client-card-name {
+	font-size: 1.2rem;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+.client-card-title {
+	line-height: 1.6;
+	font-size: 1.8rem;
+	font-weight: 400;
+	width: 100%;
+	text-align: left;
+	margin-bottom: 15px;
+}
+.client-card-link {
+	color: inherit;
+	width: 10%;
+	height: 5vh;
+}
+.client-card-link img {
+	width: 1.5rem;
+	height: 0.8rem;
+}

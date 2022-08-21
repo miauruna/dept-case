@@ -1,0 +1,17 @@
+.client-quote-wrapper {
+	width: 100%;
+	background-color: #121212;
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 7%;
+}
+.client-quote-message {
+	font-size: 1.1rem;
+	margin-bottom: 2%;
+}
+.client-quote-signature {
+	text-transform: uppercase;
+	font-size: 0.8rem;
+}

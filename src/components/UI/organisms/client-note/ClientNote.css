@@ -1,0 +1,28 @@
+.section-wrapper {
+	display: flex;
+}
+
+.client-container {
+	width: 70%;
+}
+.note-panel-container {
+	background: #121212;
+	color: #ffffff;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 2%;
+	gap: 1.5rem;
+}
+.reverse-panel {
+	flex-direction: row-reverse;
+}
+@media screen and (max-width: 1024px) {
+	.section-wrapper {
+		flex-direction: column;
+	}
+	.client-container {
+		width: 100%;
+	}
+}

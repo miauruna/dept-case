@@ -1,0 +1,9 @@
+.page-wrapper-404 {
+	min-height: 65vh;
+	padding: 25%;
+	text-align: center;
+	margin: auto;
+}
+.content-404 {
+	font-size: 3rem;
+}
