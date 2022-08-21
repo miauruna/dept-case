@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.15c251fc.css",
+    "main.js": "/static/js/main.9ee74373.js",
+    "static/js/787.98aaac9f.chunk.js": "/static/js/787.98aaac9f.chunk.js",
+    "static/media/audi.svg": "/static/media/audi.942549662441713fd661d40020baf934.svg",
+    "static/media/asos.svg": "/static/media/asos.a6fc3ecc9d99f94e5c85c606c3ea9948.svg",
+    "static/media/takeaway.svg": "/static/media/takeaway.d8f2cb8afcabd53fecfe8c3b76e01889.svg",
+    "static/media/google.svg": "/static/media/google.99c1263832d80eb2553b826308f8ce3b.svg",
+    "static/media/levis.svg": "/static/media/levis.06b98d5ab07604d9a71aafca1ea6e365.svg",
+    "static/media/patagonia.svg": "/static/media/patagonia.fb338dee54c02ed78662a125b282210d.svg",
+    "static/media/fujitsu.svg": "/static/media/fujitsu.ed55d2ceee867c46692f662728f13b2b.svg",
+    "static/media/triumph.svg": "/static/media/triumph.46363df7b18d053c922bc0aca9a99493.svg",
+    "static/media/netflix.svg": "/static/media/netflix.bd8fffb5e2260e4b40c1222ce4fa3bca.svg",
+    "static/media/tesla.svg": "/static/media/tesla.03972626fc2119d595c8dd4117c555b5.svg",
+    "static/media/adyen.svg": "/static/media/adyen.b04fa2703d5e7231e4e916a00347f332.svg",
+    "static/media/DEPTLogoBlack.svg": "/static/media/DEPTLogoBlack.29a64a77ac368e5700658742560497f5.svg",
+    "static/media/DEPTLogoWhite.svg": "/static/media/DEPTLogoWhite.cdd0cc4d996343fdd46de84c75a5ef58.svg",
+    "static/media/instagram.svg": "/static/media/instagram.51fc9120a16e2d1a8bf7451afd3b22f6.svg",
+    "index.html": "/index.html",
+    "static/media/twitter.svg": "/static/media/twitter.bea55591604d96a505d0d6bf24b9154f.svg",
+    "static/media/MenuIcon.svg": "/static/media/MenuIcon.a0c45c41c48e6da7fdba74aa5301d2ce.svg",
+    "static/media/facebook.svg": "/static/media/facebook.ba6bd6dbb8040c693749ccd89d298bbe.svg",
+    "static/media/Vector-1.svg": "/static/media/Vector-1.50bcf9b699c7fb1e5c3f545dc9541545.svg",
+    "static/media/readMoreIcon.svg": "/static/media/readMoreIcon.204cee2d45d35472f432baee255232bf.svg",
+    "main.15c251fc.css.map": "/static/css/main.15c251fc.css.map",
+    "main.9ee74373.js.map": "/static/js/main.9ee74373.js.map",
+    "787.98aaac9f.chunk.js.map": "/static/js/787.98aaac9f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15c251fc.css",
+    "static/js/main.9ee74373.js"
+  ]
+}
